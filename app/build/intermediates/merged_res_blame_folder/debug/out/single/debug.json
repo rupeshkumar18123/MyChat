@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_chat_message_recycler_row.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\chat_message_recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_edit_text_rectangle.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\edit_text_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_btn_back_24.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\btn_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__1_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__1_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_login_screen.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_login_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__4_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__4_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_circular_profile.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\circular_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_fragment_chats.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\menu_bottom_tab_layout.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\menu\\bottom_tab_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_profile_round_shape.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\profile_round_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_icon_send.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\icon_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_chat_room.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_chat_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__11_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__11_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_menu_vertical_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\menu_vertical_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_person_24.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_chat_fragment_recycler_row.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\chat_fragment_recycler_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__6_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__6_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_login_otp.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_login_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__7_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__7_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\baseline_delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_password_vec.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\password_vec.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_camera_svgrepo_com__2_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\camera_svgrepo_com__2_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_search_24.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_baseline_chat_24.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\baseline_chat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__10_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__10_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__5_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__5_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__8_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__8_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_search_user_view.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\search_user_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_image.jpg.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\image.jpg"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_fragment_new_chat_fragments.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\fragment_new_chat_fragments.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_search_magnifying_glass_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\search_magnifying_glass_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_halftone_effect_background.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\halftone_effect_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_baseline_phone_android_24.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\baseline_phone_android_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__2_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__2_.xml"
+    },
+    {
+        "merged": "com.example.mychat.app-merged_res-42:/layout_fragment_profile.xml.flat",
+        "source": "com.example.mychat.app-main-44:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__9_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__9_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_users_line.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\users_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_login_user_profile.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_login_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_search_bar.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_application_svg.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\application_svg.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_round_corner.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\round_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_avatar_svgrepo_com__3_.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\avatar_svgrepo_com__3_.xml"
+    },
+    {
+        "merged": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-merged_res-42:\\drawable_plus_circle_1441_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\rupes\\.gradle\\daemon\\8.0\\com.example.mychat.app-main-44:\\drawable\\plus_circle_1441_svgrepo_com.xml"
+    }
+]

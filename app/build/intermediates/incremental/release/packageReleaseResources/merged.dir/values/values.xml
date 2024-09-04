@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="fourth_color">#036568</color>
+    <color name="gray">#F2817E7E</color>
+    <color name="primary_color">#E23E9CE4</color>
+    <color name="secondry_color">#F735F8F2</color>
+    <color name="third_color">#FF9800</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">My Chat</string>
+    <string name="default_web_client_id" translatable="false">335859801502-lf27r1ajt3n3orumerqffqkb8s9om86j.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">335859801502</string>
+    <string name="google_api_key" translatable="false">AIzaSyCTgl17SIyTiZp8a7R46dQ9R-vHOweHmr8</string>
+    <string name="google_app_id" translatable="false">1:335859801502:android:ef644fd2d03b5ba533ca8f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCTgl17SIyTiZp8a7R46dQ9R-vHOweHmr8</string>
+    <string name="google_storage_bucket" translatable="false">my-chat-1463b.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">my-chat-1463b</string>
+    <style name="Base.Theme.MyChat" parent="Theme.Material3.DayNight.NoActionBar">
+        
+       <item name="colorPrimary">@color/primary_color</item>
+    </style>
+    <style name="Theme.MyChat" parent="Base.Theme.MyChat"/>
+</resources>

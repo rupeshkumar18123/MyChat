@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".profileFragments"
+    android:gravity="center"
+    android:background="@drawable/image"
+    android:weightSum="1200"
+    android:orientation="vertical">
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/person_24"
+        app:tint="@color/white"
+       android:background="@drawable/profile_round_shape"
+        android:id="@+id/profile_photo"
+        android:layout_centerInParent="true"
+        android:layout_weight="40"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="8dp"
+        android:id="@+id/bottm_layout"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/profile_photo"
+        android:layout_margin="10dp"
+        android:layout_weight="30"
+
+        >
+
+        <EditText
+            android:id="@+id/Profile_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corner"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:text="User name"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="910000000"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+
+
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:id="@+id/profile_phone_number"
+            android:enabled="false"
+            android:layout_below="@id/Profile_user_name"
+            />
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/fourth_color"
+        android:text="Update profile"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:id="@+id/profile_update_button"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_weight="20"
+        android:textColor="@color/white"
+        android:layout_below="@id/bottm_layout"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_update_button"
+        android:layout_centerInParent="true"
+        android:id="@+id/profile_progress_bar"
+        android:layout_marginTop="10dp"
+        android:layout_weight="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/logout"
+        android:textColor="@color/gray"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,677 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mychat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->F:\MyChat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->F:\MyChat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->[com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:2.5.1] C:\Users\rupes\.gradle\caches\transforms-3\d90c34efb684ceb2246016fadcf2ae8d\transformed\zego_uikit_prebuilt_call_android-2.5.1\AndroidManifest.xml:9:5-66
+11-->[com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:2.5.1] C:\Users\rupes\.gradle\caches\transforms-3\d90c34efb684ceb2246016fadcf2ae8d\transformed\zego_uikit_prebuilt_call_android-2.5.1\AndroidManifest.xml:9:22-63
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:9:5-75
+12-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:9:22-72
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:10:5-76
+13-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:10:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:11:5-67
+14-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:12:5-79
+15-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:13:5-71
+16-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:13:22-68
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:14:5-65
+17-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:14:22-62
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:15:5-68
+18-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:15:22-65
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:16:5-80
+19-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:16:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:17:5-81
+20-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:17:22-78
+21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+21-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:18:5-76
+21-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:18:22-73
+22    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+22-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:19:5-75
+22-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:19:22-72
+23    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+23-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:20:5-75
+23-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:20:22-72
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:21:5-77
+24-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:21:22-74
+25
+26    <uses-feature
+26-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:23:5-25:35
+27        android:glEsVersion="0x00020000"
+27-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:24:9-41
+28        android:required="true" />
+28-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:25:9-32
+29    <uses-feature android:name="android.hardware.camera" />
+29-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:26:5-60
+29-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:26:19-57
+30    <uses-feature android:name="android.hardware.camera.autofocus" />
+30-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:27:5-70
+30-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:27:19-67
+31
+32    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+33    <uses-permission android:name="android.permission.GET_TASKS" />
+33-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:11:5-68
+33-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:11:22-65
+34    <uses-permission android:name="android.permission.GET_TASKS" />
+34-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:11:5-68
+34-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:11:22-65
+35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+35-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:5-77
+35-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:22-74
+36    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
+36-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+37-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] C:\Users\rupes\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] C:\Users\rupes\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] C:\Users\rupes\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- 华为推送 -->
+43-->[androidx.core:core:1.9.0] C:\Users\rupes\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] C:\Users\rupes\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+44    <queries>
+44-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:17:5-21:15
+45        <intent>
+45-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:18:9-20:18
+46            <action android:name="com.huawei.hms.core.aidlservice" />
+46-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:19:13-70
+46-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:19:21-67
+47        </intent>
+48    </queries>
+49
+50    <application
+50-->F:\MyChat\app\src\main\AndroidManifest.xml:5:5-42:19
+51        android:allowBackup="true"
+51-->F:\MyChat\app\src\main\AndroidManifest.xml:6:9-35
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.9.0] C:\Users\rupes\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+53        android:dataExtractionRules="@xml/data_extraction_rules"
+53-->F:\MyChat\app\src\main\AndroidManifest.xml:7:9-65
+54        android:extractNativeLibs="false"
+55        android:fullBackupContent="@xml/backup_rules"
+55-->F:\MyChat\app\src\main\AndroidManifest.xml:8:9-54
+56        android:icon="@drawable/application_svg"
+56-->F:\MyChat\app\src\main\AndroidManifest.xml:9:9-49
+57        android:label="@string/app_name"
+57-->F:\MyChat\app\src\main\AndroidManifest.xml:10:9-41
+58        android:roundIcon="@drawable/application_svg"
+58-->F:\MyChat\app\src\main\AndroidManifest.xml:11:9-54
+59        android:supportsRtl="true"
+59-->F:\MyChat\app\src\main\AndroidManifest.xml:12:9-35
+60        android:theme="@style/Theme.MyChat" >
+60-->F:\MyChat\app\src\main\AndroidManifest.xml:13:9-44
+61        <activity
+61-->F:\MyChat\app\src\main\AndroidManifest.xml:15:9-17:40
+62            android:name="com.example.mychat.chat_room_"
+62-->F:\MyChat\app\src\main\AndroidManifest.xml:16:13-39
+63            android:exported="false" />
+63-->F:\MyChat\app\src\main\AndroidManifest.xml:17:13-37
+64        <activity
+64-->F:\MyChat\app\src\main\AndroidManifest.xml:18:9-20:40
+65            android:name="com.example.mychat.search_bar_activity"
+65-->F:\MyChat\app\src\main\AndroidManifest.xml:19:13-48
+66            android:exported="false" />
+66-->F:\MyChat\app\src\main\AndroidManifest.xml:20:13-37
+67        <activity
+67-->F:\MyChat\app\src\main\AndroidManifest.xml:21:9-23:40
+68            android:name="com.example.mychat.login.login_user_profile"
+68-->F:\MyChat\app\src\main\AndroidManifest.xml:22:13-53
+69            android:exported="false" />
+69-->F:\MyChat\app\src\main\AndroidManifest.xml:23:13-37
+70        <activity
+70-->F:\MyChat\app\src\main\AndroidManifest.xml:24:9-26:40
+71            android:name="com.example.mychat.login.login_otp"
+71-->F:\MyChat\app\src\main\AndroidManifest.xml:25:13-44
+72            android:exported="false" />
+72-->F:\MyChat\app\src\main\AndroidManifest.xml:26:13-37
+73        <activity
+73-->F:\MyChat\app\src\main\AndroidManifest.xml:27:9-29:40
+74            android:name="com.example.mychat.login.login_screen"
+74-->F:\MyChat\app\src\main\AndroidManifest.xml:28:13-47
+75            android:exported="false" />
+75-->F:\MyChat\app\src\main\AndroidManifest.xml:29:13-37
+76        <activity
+76-->F:\MyChat\app\src\main\AndroidManifest.xml:30:9-38:20
+77            android:name="com.example.mychat.splash"
+77-->F:\MyChat\app\src\main\AndroidManifest.xml:31:13-35
+78            android:exported="true" >
+78-->F:\MyChat\app\src\main\AndroidManifest.xml:32:13-36
+79            <intent-filter>
+79-->F:\MyChat\app\src\main\AndroidManifest.xml:33:13-37:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->F:\MyChat\app\src\main\AndroidManifest.xml:34:17-69
+80-->F:\MyChat\app\src\main\AndroidManifest.xml:34:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->F:\MyChat\app\src\main\AndroidManifest.xml:36:17-77
+82-->F:\MyChat\app\src\main\AndroidManifest.xml:36:27-74
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->F:\MyChat\app\src\main\AndroidManifest.xml:39:9-41:40
+86            android:name="com.example.mychat.MainActivity"
+86-->F:\MyChat\app\src\main\AndroidManifest.xml:40:13-41
+87            android:exported="false" />
+87-->F:\MyChat\app\src\main\AndroidManifest.xml:41:13-37
+88        <activity
+88-->[com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:2.5.1] C:\Users\rupes\.gradle\caches\transforms-3\d90c34efb684ceb2246016fadcf2ae8d\transformed\zego_uikit_prebuilt_call_android-2.5.1\AndroidManifest.xml:12:9-15:40
+89            android:name="com.zegocloud.uikit.prebuilt.call.invite.internal.CallInviteActivity"
+89-->[com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:2.5.1] C:\Users\rupes\.gradle\caches\transforms-3\d90c34efb684ceb2246016fadcf2ae8d\transformed\zego_uikit_prebuilt_call_android-2.5.1\AndroidManifest.xml:13:13-96
+90            android:configChanges="locale|keyboardHidden|fontScale|orientation|screenSize|screenLayout|layoutDirection|density|uiMode"
+90-->[com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:2.5.1] C:\Users\rupes\.gradle\caches\transforms-3\d90c34efb684ceb2246016fadcf2ae8d\transformed\zego_uikit_prebuilt_call_android-2.5.1\AndroidManifest.xml:14:13-135
+91            android:exported="false" />
+91-->[com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:2.5.1] C:\Users\rupes\.gradle\caches\transforms-3\d90c34efb684ceb2246016fadcf2ae8d\transformed\zego_uikit_prebuilt_call_android-2.5.1\AndroidManifest.xml:15:13-37
+92        <activity
+92-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:30:9-35:64
+93            android:name="im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity"
+93-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:31:13-118
+94            android:configChanges="screenSize|orientation"
+94-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:32:13-59
+95            android:exported="false"
+95-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:33:13-37
+96            android:screenOrientation="fullUser"
+96-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:34:13-49
+97            android:theme="@android:style/Theme.Translucent" />
+97-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:35:13-61
+98
+99        <service
+99-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:37:9-45:19
+100            android:name="im.zego.internal.screencapture.ZegoScreenCaptureService"
+100-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:38:13-83
+101            android:enabled="true"
+101-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:39:13-35
+102            android:exported="false"
+102-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:40:13-37
+103            android:foregroundServiceType="mediaProjection" >
+103-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:41:13-60
+104            <intent-filter>
+104-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:42:13-44:29
+105                <action android:name="android.intent.action.screenshare" />
+105-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:43:17-76
+105-->[com.github.ZEGOCLOUD:zego_uikit_android:2.5.0] C:\Users\rupes\.gradle\caches\transforms-3\bede6d939140a9e062c268e4d4ffbdb0\transformed\zego_uikit_android-2.5.0\AndroidManifest.xml:43:25-73
+106            </intent-filter>
+107        </service>
+108        <service
+108-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\rupes\.gradle\caches\transforms-3\2dbdd3dec7cbc25b57ca50d1f5c868b5\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:16:9-22:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\rupes\.gradle\caches\transforms-3\2dbdd3dec7cbc25b57ca50d1f5c868b5\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:17:13-84
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\rupes\.gradle\caches\transforms-3\2dbdd3dec7cbc25b57ca50d1f5c868b5\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:18:13-37
+112            <meta-data
+112-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\rupes\.gradle\caches\transforms-3\2dbdd3dec7cbc25b57ca50d1f5c868b5\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:19:13-21:85
+113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+113-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\rupes\.gradle\caches\transforms-3\2dbdd3dec7cbc25b57ca50d1f5c868b5\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:20:17-111
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\rupes\.gradle\caches\transforms-3\2dbdd3dec7cbc25b57ca50d1f5c868b5\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:21:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\f35220eea954d3a3328922fb884f407b\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:11:13-13:85
+116                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+116-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\f35220eea954d3a3328922fb884f407b\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:12:17-116
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\f35220eea954d3a3328922fb884f407b\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:13:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+119                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+119-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\rupes\.gradle\caches\transforms-3\a64eecf68d569ba021e6d6fb2773bc77\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+122                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+122-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\rupes\.gradle\caches\transforms-3\a64eecf68d569ba021e6d6fb2773bc77\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\rupes\.gradle\caches\transforms-3\a64eecf68d569ba021e6d6fb2773bc77\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+125                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\49125d9d86860699be40839c958e367f\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:14:13-16:85
+128                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+128-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\49125d9d86860699be40839c958e367f\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:15:17-113
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-common-ktx:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\49125d9d86860699be40839c958e367f\transformed\firebase-common-ktx-20.3.3\AndroidManifest.xml:16:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\rupes\.gradle\caches\transforms-3\a53558f05796ac340eeb8bc2a992993e\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+131                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+131-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\rupes\.gradle\caches\transforms-3\a53558f05796ac340eeb8bc2a992993e\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\rupes\.gradle\caches\transforms-3\a53558f05796ac340eeb8bc2a992993e\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+133        </service>
+134
+135        <receiver
+135-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:17:9-24:20
+136            android:name="com.zegocloud.uikit.plugin.signaling.ZegoZPNsReceiver"
+136-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:18:13-81
+137            android:enabled="true"
+137-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:19:13-35
+138            android:exported="true" >
+138-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:20:13-36
+139            <intent-filter>
+139-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:21:13-23:29
+140                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+140-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:22:17-81
+140-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:22:25-78
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:17:9-24:20
+144            android:name="com.zegocloud.uikit.plugin.signaling.ZegoZPNsReceiver"
+144-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:18:13-81
+145            android:enabled="true"
+145-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:19:13-35
+146            android:exported="true" >
+146-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:20:13-36
+147            <intent-filter>
+147-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:21:13-23:29
+148                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+148-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:22:17-81
+148-->[com.github.ZEGOCLOUD:zego_uikit_signaling_plugin_android:2.1.0] C:\Users\rupes\.gradle\caches\transforms-3\c5008bbd94581c3ec121b5b1e20f6d9f\transformed\zego_uikit_signaling_plugin_android-2.1.0\AndroidManifest.xml:22:25-78
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+152            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+152-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+153            android:exported="true"
+153-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+154            android:permission="com.google.android.c2dm.permission.SEND" >
+154-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+155            <intent-filter>
+155-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+156                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+156-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+156-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+157            </intent-filter>
+158        </receiver>
+159        <!--
+160             FirebaseMessagingService performs security checks at runtime,
+161             but set to not exported to explicitly avoid allowing another app to call it.
+162        -->
+163        <service
+163-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+164            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+164-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+165            android:directBootAware="true"
+165-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+166            android:exported="false" >
+166-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+167            <intent-filter android:priority="-500" >
+167-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:13-50:29
+167-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:28-51
+168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+168-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:17-78
+168-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:25-75
+169            </intent-filter>
+170        </service>
+171        <service
+171-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\aa4f33441654ddaf4216f4f490de6946\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+172            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+172-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\aa4f33441654ddaf4216f4f490de6946\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+173            android:exported="false" >
+173-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\aa4f33441654ddaf4216f4f490de6946\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+174            <meta-data
+174-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\aa4f33441654ddaf4216f4f490de6946\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+175                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+175-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\aa4f33441654ddaf4216f4f490de6946\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+176                android:value="cct" />
+176-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\aa4f33441654ddaf4216f4f490de6946\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+177        </service>
+178        <service
+178-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+179            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+179-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+180            android:exported="false"
+180-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+181            android:permission="android.permission.BIND_JOB_SERVICE" >
+181-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+182        </service>
+183
+184        <receiver
+184-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+185            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+185-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+186            android:exported="false" />
+186-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\rupes\.gradle\caches\transforms-3\de5290a74f296ca6f0c1bcbaf60f0952\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+187
+188        <activity
+188-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+189            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+189-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+190            android:excludeFromRecents="true"
+190-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+191            android:exported="true"
+191-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+192            android:launchMode="singleTask"
+192-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+193-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+194            <intent-filter>
+194-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+195                <action android:name="android.intent.action.VIEW" />
+195-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+195-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+196
+197                <category android:name="android.intent.category.DEFAULT" />
+197-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+197-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+198                <category android:name="android.intent.category.BROWSABLE" />
+198-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+198-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+199
+200                <data
+200-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+201                    android:host="firebase.auth"
+201-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+202                    android:path="/"
+202-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+203                    android:scheme="genericidp" />
+203-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+204            </intent-filter>
+205        </activity>
+206        <activity
+206-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+207            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+207-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+208            android:excludeFromRecents="true"
+208-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+209            android:exported="true"
+209-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+210            android:launchMode="singleTask"
+210-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+211-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+212            <intent-filter>
+212-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+213                <action android:name="android.intent.action.VIEW" />
+213-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+213-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+214
+215                <category android:name="android.intent.category.DEFAULT" />
+215-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+215-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+216                <category android:name="android.intent.category.BROWSABLE" />
+216-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+216-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+217
+218                <data
+218-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+219                    android:host="firebase.auth"
+219-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+220                    android:path="/"
+220-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+221                    android:scheme="recaptcha" />
+221-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+222            </intent-filter>
+223        </activity>
+224
+225        <provider
+225-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+226            android:name="com.google.firebase.provider.FirebaseInitProvider"
+226-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+227            android:authorities="com.example.mychat.firebaseinitprovider"
+227-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+228            android:directBootAware="true"
+228-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+229            android:exported="false"
+229-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+230            android:initOrder="100" />
+230-->[com.google.firebase:firebase-common:20.3.3] C:\Users\rupes\.gradle\caches\transforms-3\bf26ba3c89adeb51e57e1e58f0b15d21\transformed\firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+231
+232        <activity
+232-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\rupes\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+233            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+233-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\rupes\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+234            android:exported="false"
+234-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\rupes\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\rupes\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+236
+237        <meta-data
+237-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\rupes\.gradle\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+238            android:name="com.google.android.gms.version"
+238-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\rupes\.gradle\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+239            android:value="@integer/google_play_services_version" />
+239-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\rupes\.gradle\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+240
+241        <provider
+241-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+242            android:name="androidx.startup.InitializationProvider"
+242-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+243            android:authorities="com.example.mychat.androidx-startup"
+243-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+244            android:exported="false" >
+244-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+245            <meta-data
+245-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+246                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+246-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+247                android:value="androidx.startup" />
+247-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rupes\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+248            <meta-data
+248-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rupes\.gradle\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+249                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+249-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rupes\.gradle\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+250                android:value="androidx.startup" />
+250-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rupes\.gradle\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+251        </provider> <!-- 小米推送 -->
+252        <service
+252-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:27:9-32:46
+253            android:name="com.xiaomi.push.service.XMJobService"
+253-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:28:13-64
+254            android:enabled="true"
+254-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:29:13-35
+255            android:exported="false"
+255-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:30:13-37
+256            android:permission="android.permission.BIND_JOB_SERVICE"
+256-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:31:13-69
+257            android:process=":pushservice" /> <!-- FCM推送 -->
+257-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:32:13-43
+258        <service
+258-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:35:9-41:19
+259            android:name="im.zego.zpns.internal.receiver.FCMMessageService"
+259-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:36:13-76
+260            android:exported="false" >
+260-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:37:13-37
+261            <intent-filter>
+261-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:13-50:29
+262                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+262-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:17-78
+262-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\rupes\.gradle\caches\transforms-3\ea328b610bd19482974625d0fd226c25\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:25-75
+263            </intent-filter>
+264        </service>
+265        <service
+265-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:42:9-46:46
+266            android:name="com.xiaomi.push.service.XMPushService"
+266-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:43:13-65
+267            android:enabled="true"
+267-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:44:13-35
+268            android:exported="true"
+268-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:45:13-36
+269            android:process=":pushservice" />
+269-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:46:13-43
+270        <service
+270-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:47:9-50:39
+271            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+271-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:48:13-68
+272            android:enabled="true"
+272-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:49:13-35
+273            android:exported="true" />
+273-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:50:13-36
+274        <service
+274-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:51:9-54:39
+275            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+275-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:52:13-70
+276            android:enabled="true"
+276-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:53:13-35
+277            android:exported="true" />
+277-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:54:13-36
+278
+279        <receiver
+279-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:56:9-64:20
+280            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+280-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:57:13-83
+281            android:exported="true" >
+281-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:58:13-36
+282            <intent-filter>
+282-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:59:13-63:29
+283                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+283-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:60:17-79
+283-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:60:25-76
+284
+285                <category android:name="android.intent.category.DEFAULT" />
+285-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+285-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\rupes\.gradle\caches\transforms-3\43c22cef9e1af3431c71a0a03621f220\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+286            </intent-filter>
+287        </receiver>
+288        <receiver
+288-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:65:9-72:20
+289            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+289-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:66:13-74
+290            android:exported="false"
+290-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:67:13-37
+291            android:process=":pushservice" >
+291-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:68:13-43
+292            <intent-filter>
+292-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:69:13-71:29
+293                <action android:name="com.xiaomi.push.PING_TIMER" />
+293-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:70:17-69
+293-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:70:25-66
+294            </intent-filter>
+295        </receiver>
+296        <receiver
+296-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:73:9-85:20
+297            android:name="im.zego.zpns.internal.receiver.XiaoMiMessageReceiver"
+297-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:74:13-80
+298            android:exported="true" >
+298-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:75:13-36
+299            <intent-filter>
+299-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:76:13-78:29
+300                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+300-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:77:17-76
+300-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:77:25-73
+301            </intent-filter>
+302            <intent-filter>
+302-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:79:13-81:29
+303                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+303-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:80:17-76
+303-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:80:25-73
+304            </intent-filter>
+305            <intent-filter>
+305-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:82:13-84:29
+306                <action android:name="com.xiaomi.mipush.ERROR" />
+306-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:83:17-66
+306-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:83:25-63
+307            </intent-filter>
+308        </receiver> <!-- 小米推送 -->
+309        <!-- 华为推送 -->
+310        <meta-data
+310-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:90:9-92:37
+311            android:name="com.huawei.hms.client.channel.androidMarket"
+311-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:91:13-71
+312            android:value="false" />
+312-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:92:13-34
+313
+314        <service
+314-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:94:9-100:19
+315            android:name="im.zego.zpns.internal.receiver.HuaWeiMessageService"
+315-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:95:13-79
+316            android:exported="true" >
+316-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:96:13-36
+317            <intent-filter>
+317-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:97:13-99:29
+318                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+318-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:98:17-81
+318-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:98:25-78
+319            </intent-filter>
+320        </service> <!-- 华为推送 -->
+321        <!-- OPPO推送 -->
+322        <service
+322-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:105:9-113:19
+323            android:name="im.zego.zpns.internal.receiver.OppoDataMessage"
+323-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:106:13-74
+324            android:exported="true"
+324-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:107:13-36
+325            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" >
+325-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:108:13-77
+326            <intent-filter>
+326-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:109:13-112:29
+327                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+327-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:110:17-84
+327-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:110:25-81
+328                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+328-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:111:17-82
+328-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:111:25-79
+329            </intent-filter>
+330        </service>
+331        <service
+331-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:114:9-121:19
+332            android:name="im.zego.zpns.internal.receiver.OppoCompatibleDataService"
+332-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:115:13-84
+333            android:exported="true"
+333-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:116:13-36
+334            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+334-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:117:13-77
+335            <intent-filter>
+335-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:118:13-120:29
+336                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+336-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:119:17-85
+336-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:119:25-82
+337            </intent-filter>
+338        </service> <!-- OPPO推送 -->
+339        <!-- VIVO push应用定义消息receiver声明 -->
+340        <receiver
+340-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:126:9-134:20
+341            android:name="im.zego.zpns.internal.receiver.VivoMessageReceiver"
+341-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:127:13-78
+342            android:exported="false" >
+342-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:128:13-37
+343            <intent-filter>
+343-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:129:13-133:29
+344
+345                <!-- 接收push消息 -->
+346                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+346-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:132:17-77
+346-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:132:25-74
+347            </intent-filter>
+348        </receiver>
+349
+350        <service
+350-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:136:9-139:71
+351            android:name="com.vivo.push.sdk.service.CommandClientService"
+351-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:137:13-74
+352            android:exported="true"
+352-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:138:13-36
+353            android:permission="com.push.permission.UPSTAGESERVICE" />
+353-->[im.zego:zpns:2.3.0] C:\Users\rupes\.gradle\caches\transforms-3\51a0776c0144bae846103b9117d749c5\transformed\zpns-2.3.0\AndroidManifest.xml:139:13-68
+354    </application>
+355
+356</manifest>
